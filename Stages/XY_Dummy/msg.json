@@ -1,14 +1,14 @@
 {
   "type": "manager",
-  "name": "component_name",
+  "name": "notneeded",
   "timestamp": "2025-12-31T23:59:60Z",
   "payload": {
     "cmd": "component_launch",
     "properties": {
-      "actor_name_id": "echo_world",
+      "actor_name_id": "stage",
       "wasmfile_path": {
         "from_url": {
-          "wasm_url": "https://github.com/Suricube/Galaxy-Components/blob/main/Stages/XY_Dummy/Galaxy-Stage.wasm",
+          "wasm_url": "https://github.com/Suricube/Galaxy-Components/blob/main/Stages/XY_Dummy/Galaxy_WIT_example.wasm",
           "config_url": "https://github.com/Suricube/Galaxy-Components/blob/main/Stages/XY_Dummy/XY_Dummy_v00-00-00.json"
         }
       },
@@ -18,3 +18,25 @@
     }
   }
 }
+
+{
+  "type": "manager",
+  "name": "component_name",
+  "timestamp": "2025-12-31T23:59:60Z",
+  "payload": {
+    "cmd": "component_launch",
+    "properties": {
+      "actor_name_id": "echo_world",
+      "wasmfile_path": {
+        "from_path": "C:\\Users\\hufna\\Documents\\Software\\Rust\\Galaxy-WIT-example\\target\\wasm32-wasip2\\debug\\Galaxy_WIT_example.wasm"
+      }
+    },
+    "msg_id": "unique id",
+    "reply_req": null,
+    "meta": {}
+  }
+}
+
+C:\\Users\\hufna\\Documents\\Software\\Rust\\Galaxy-Stage\\target\\wasm32-wasip2\\debug\\Galaxy_Stage.wasm"
+
+C:\\Users\\SebastianHambura\\Desktop\\Suricube\\Galaxy-WIT-example\\target\\wasm32-wasip2\\debug\\Galaxy_WIT_example.wasm"
