@@ -8,8 +8,8 @@
       "actor_name_id": "echo_world",
       "wasmfile_path": {
         "from_url": {
-          "wasm_url": "https://github.com/Suricube/Galaxy-Components/blob/main",
-          "config_url": "https://github.com/Suricube/Galaxy-Components/blob/main"
+          "wasm_url": "https://github.com/Suricube/Galaxy-Components/blob/main/Stages/XY_Dummy/Galaxy-Stage.wasm",
+          "config_url": "https://github.com/Suricube/Galaxy-Components/blob/main/Stages/XY_Dummy/XY_Dummy_v00-00-00.json"
         }
       },
       "msg_id": "unique id",
