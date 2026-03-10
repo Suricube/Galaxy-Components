@@ -8,8 +8,8 @@
       "actor_name_id": "stage",
       "wasmfile_path": {
         "from_url": {
-          "wasm_url": "https://github.com/Suricube/Galaxy-Components/blob/main/Stages/XY_Dummy/Galaxy_WIT_example.wasm",
-          "config_url": "https://github.com/Suricube/Galaxy-Components/blob/main/Stages/XY_Dummy/XY_Dummy_v00-00-00.json"
+          "wasm_url": "https://github.com/Suricube/Galaxy-Components/raw/refs/heads/main/Stages/XY_Dummy/Galaxy_WIT_example.wasm",
+          "config_url": "https://raw.githubusercontent.com/Suricube/Galaxy-Components/refs/heads/main/Stages/XY_Dummy/XY_Dummy_v00-00-00.json"
         }
       },
       "msg_id": "unique id",
@@ -40,3 +40,66 @@
 C:\\Users\\hufna\\Documents\\Software\\Rust\\Galaxy-Stage\\target\\wasm32-wasip2\\debug\\Galaxy_Stage.wasm"
 
 C:\\Users\\SebastianHambura\\Desktop\\Suricube\\Galaxy-WIT-example\\target\\wasm32-wasip2\\debug\\Galaxy_WIT_example.wasm"
+https://api.github.com/repos/Suricube/Galaxy-Components/git/trees/main?recursive=0
+
+{
+  "sha": "96c662b912b3d8e0122b232cddf878a77199a53c",
+  "url": "https://api.github.com/repos/Suricube/Galaxy-Components/git/trees/96c662b912b3d8e0122b232cddf878a77199a53c",
+  "tree": [
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d85dd831e00864ddf53d3fd557d6b440c5a26815",
+      "size": 20,
+      "url": "https://api.github.com/repos/Suricube/Galaxy-Components/git/blobs/d85dd831e00864ddf53d3fd557d6b440c5a26815"
+    },
+    {
+      "path": "Stages",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1393d5cecd6b236199b8030a27b1041d67aff7b4",
+      "url": "https://api.github.com/repos/Suricube/Galaxy-Components/git/trees/1393d5cecd6b236199b8030a27b1041d67aff7b4"
+    },
+    {
+      "path": "Stages/XY_Dummy",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ec77f45614629432f73c7dbbbf51516de5ffd48a",
+      "url": "https://api.github.com/repos/Suricube/Galaxy-Components/git/trees/ec77f45614629432f73c7dbbbf51516de5ffd48a"
+    },
+    {
+      "path": "Stages/XY_Dummy/Galaxy-Stage.wasm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d51477e82367647c28bea77b02590133fd0246b0",
+      "size": 1708667,
+      "url": "https://api.github.com/repos/Suricube/Galaxy-Components/git/blobs/d51477e82367647c28bea77b02590133fd0246b0"
+    },
+    {
+      "path": "Stages/XY_Dummy/Galaxy_WIT_example.wasm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e50ac6615eda16c7437927d5937a694fcfca3c0",
+      "size": 5739022,
+      "url": "https://api.github.com/repos/Suricube/Galaxy-Components/git/blobs/4e50ac6615eda16c7437927d5937a694fcfca3c0"
+    },
+    {
+      "path": "Stages/XY_Dummy/XY_Dummy_v00-00-00.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "37880ed813ec842b8827b67c8128ba814b0056d2",
+      "size": 654,
+      "url": "https://api.github.com/repos/Suricube/Galaxy-Components/git/blobs/37880ed813ec842b8827b67c8128ba814b0056d2"
+    },
+    {
+      "path": "Stages/XY_Dummy/msg.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b00efe4a0371119d60882d7caf0b430c47cd3777",
+      "size": 1255,
+      "url": "https://api.github.com/repos/Suricube/Galaxy-Components/git/blobs/b00efe4a0371119d60882d7caf0b430c47cd3777"
+    }
+  ],
+  "truncated": false
+}
