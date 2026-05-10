@@ -1,0 +1,14 @@
+{
+    "description":"configuration for opt",
+    "requires":{
+        "system":{},
+        "fpga": {},
+        "components":[
+            {
+                "name":"galvo",
+                "url":"http://...",
+                "ui":["leftpanel/configuration/galvo","left/automation/galvo"]
+            }
+        ]
+    }
+}
