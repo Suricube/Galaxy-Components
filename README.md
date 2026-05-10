@@ -1,1 +1,1 @@
-# Galaxy-Components
+# Galaxy configuration repo
