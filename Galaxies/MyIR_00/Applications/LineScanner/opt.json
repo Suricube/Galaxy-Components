@@ -1,0 +1,27 @@
+{
+    "description":"configuration for opt",
+    "requires":{
+        "system":{
+            "mpsoc":"ZU3EG",
+            "board":"myir",
+            "periphery":["fmc/ADC","can","pmod1/ADC","pmod2/DAC"]
+        },
+        "fpga": {
+            "bitfile":{
+                "name":"opt_ZU3EG_myir",
+                "url":"http://..."                
+            },
+            "other":{
+                "name":"opt.other",
+                "url":"http://..."
+            }
+        },
+        "components":[
+            {
+                "name":"galvo",
+                "url":"http://...",
+                "ui":["leftpanel/configuration/galvo","left/automation/galvo"]
+            }
+        ]
+    }
+}
