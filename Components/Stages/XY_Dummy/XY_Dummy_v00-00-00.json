@@ -7,6 +7,7 @@
         "brand": "Dummy",
         "pos":{"value":0,"min":-100,"max":100,"step":0.1,"trafo":{"offset":0, "scale":1.0}},
         "speed":{"value":100,"min":0,"max":1000,"step":1,"trafo":{"offset":0, "scale":1.0}},
+        "stream": false,
         "status": "configured"
     },
     {
@@ -15,6 +16,7 @@
         "brand": "Dummy",
         "pos":{"value":0,"min":-100,"max":100,"step":0.1,"trafo":{"offset":0, "scale":1.0}},
         "speed":{"value":100,"min":0,"max":1000,"step":1,"trafo":{"offset":0, "scale":1.0}},
+        "stream": false,
         "status": "configured"
     }
   ]
