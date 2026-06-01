@@ -1,0 +1,28 @@
+{
+  "cmd": "config",
+  "properties": {
+    "galvo": {
+      "start": 0,
+      "end": 1
+    },
+    "timing": {
+      "tau": 0.1,
+      "percentile": 10
+    },
+    "cameras": [
+      {
+        "name": "ddd",
+        "port": "do00"
+      }
+    ],
+    "lasers": [
+      {
+        "name": "488nm",
+        "d_port": "do10",
+        "a_port": "ao0",
+        "value": 0,
+        "state": false
+      }
+    ]
+  }
+}
